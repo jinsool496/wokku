@@ -1,0 +1,19 @@
+{
+  "name": "wokku-sg-vpn10-gateway",
+  "version": "1.0.1",
+  "private": true,
+  "description": "SG-VPN 10.1 Gateway adapted for Wokku Node.js hosting",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0",
+    "ws": "^8.18.0"
+  }
+}
