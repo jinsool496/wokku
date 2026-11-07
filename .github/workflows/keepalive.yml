@@ -1,9 +1,0 @@
-name: keepalive
-on:
-  schedule:
-    - cron: "*/30 * * * *"
-jobs:
-  ping:
-    runs-on: ubuntu-latest
-    steps:
-      - run: curl -fsS -m 10 https://dex.wokku.app/health
